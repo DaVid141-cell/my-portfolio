@@ -4,10 +4,12 @@
 @custom-variant dark (&:is(.dark *));
 
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 0;
+  border: 0;
+  text-decoration: none;  
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
 }
 
 .logo {
@@ -82,6 +84,11 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+
+  /*Custom Css color*/
+  --color-light-red: #b74b4b;
+
+  --rounded-oblong: 50%;
 }
 
 :root {
@@ -158,6 +165,6 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-foreground text-background;
   }
 }
