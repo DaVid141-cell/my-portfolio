@@ -87,6 +87,8 @@
 
   /*Custom Css color*/
   --color-light-red: #b74b4b;
+  --color-cus-grey: #2d2d2d;
+  --color-light-dark-red: #983E3E;
 
   --rounded-oblong: 50%;
 }
@@ -167,4 +169,62 @@
   body {
     @apply bg-foreground text-background;
   }
+}
+
+.button-project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    padding: 6px;
+    border: 2px solid transparent;
+    background: var(--skills_gradient_bg, linear-gradient(10deg, #2c2a2a 5.73%, rgb(2, 2, 2) 93.52%));
+    color: var(--skills_text_color, #dad2d2);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 5px;
+    outline-offset: 0;
+    letter-spacing: 1.2px;
+}
+
+.button-skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: start;
+    padding: 7px 18px;
+    border: 2px solid transparent;
+    background: var(--skills_gradient_bg, linear-gradient(261deg, #983E3E 5.73%, rgba(61, 25, 25, 1) 93.52%));
+    color: var(--skills_text_color, #dad2d2);
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 5px;
+    outline-offset: 0;
+    letter-spacing: 1.2px;
+}
+.hover-effect {
+  transition: all 0.3s ease;
+}
+
+.hover-effect:hover {
+  color: black;                     
+  transform: scale(1.10) translateY(-0.25rem); 
+  background-color: #ef4444;        
+  box-shadow: 0 0 25px red;         
+}
+
+.reveal{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+
+
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
