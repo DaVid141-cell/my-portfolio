@@ -1,28 +1,28 @@
-import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from "./navigation-menu";
+import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList } from "./navigation-menu";
 
 export default function NavMenu () {
     return (
-    <NavigationMenu>
+    <NavigationMenu >
         <NavigationMenuList>
             <NavigationMenuItem>
-            <NavigationMenuLink asChild>
-                <button>Home</button>
-            </NavigationMenuLink>
+                <NavigationMenuLink href="#home">
+                     Home
+                </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
-            <NavigationMenuLink asChild>
-                <button>About</button>
-            </NavigationMenuLink>
+                <NavigationMenuLink href="#about">
+                    About
+                </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
-            <NavigationMenuLink asChild>
-                <button>Projects</button>
-            </NavigationMenuLink>
+                <NavigationMenuLink href="#projects">
+                    Projects
+                </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
-            <NavigationMenuLink asChild>
-                <button>Contact</button>
-            </NavigationMenuLink>
+                <NavigationMenuLink href="#contact">
+                    Contact
+                </NavigationMenuLink>
             </NavigationMenuItem>
         </NavigationMenuList>
     </NavigationMenu>
