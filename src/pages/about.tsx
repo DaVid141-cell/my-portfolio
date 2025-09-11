@@ -2,6 +2,7 @@
 import { AboutMe } from "@/components/about-me";
 import { Skill } from "@/components/skill";
 import { Education } from "@/components/education";
+import PixelGrid from "@/components/pixel-grid";
 
 export default function About() {
     return (
@@ -9,7 +10,7 @@ export default function About() {
             <AboutMe/>
             <Education/>
             <Skill/>
-            
+            <PixelGrid height={800} width={1305} boxSize={45}/>
         </section>
     )
 }
