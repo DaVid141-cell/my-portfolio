@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDiscord, faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { ScrollAnimation } from "@/components/scroll-animation";
+import {TypingText} from "@/components/typing-text"
  
 export default function Home() {
     return (
@@ -16,10 +17,13 @@ export default function Home() {
                     </div>
                     
                     <div className="flex flex-col justify-center">
-                        <h1 className="text-7xl font-bold line-height[1.3]">Hi, It's <span className="text-light-red">David</span>
+                        <h1 className="text-7xl font-bold line-height[1.3]">
+                            Hi, It's <span className="text-light-red">David</span>
                         </h1>
-                        <h3 className="text-5xl font-blod mb-4">I'm a <span className="text-light-red">Software Developer</span></h3>
-                            <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo commodi natus, vel tempora at dolor sint error nisi? Labore eos inventore dolor quas voluptatem dicta voluptates eveniet sint iure asperiores!</p>
+                        <h3 className="text-5xl font-blod mb-4">
+                            I'm a <TypingText text="Full Stack Developer" speed={100} loop={true}/>
+                        </h3>
+                            <p className="">Every failure is a chance to grow, overcome, and to do better next time. And each setback is not the end, but a lesson that strengthens your skills, builds resilience, and pushes you closer to success.</p>
                         <div className="inline-flex gap-6 text-3xl mt-4 text-background align-text-center ">
                             <a className="border-2 border-light-red rounded-full p-1 hover-effect" 
                                 href="https://github.com/DaVid141-cell" target="_blank"><FontAwesomeIcon icon={faGithub} />

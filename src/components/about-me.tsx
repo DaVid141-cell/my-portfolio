@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { ScrollAnimation } from "./scroll-animation"
 import { faTerminal } from "@fortawesome/free-solid-svg-icons"
 
+
 export const AboutMe = () => {
     return (
         <ScrollAnimation>

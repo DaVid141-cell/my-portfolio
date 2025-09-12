@@ -20,7 +20,7 @@ export default function Project() {
                                         <a className="button-project">CSS</a>
                                         <a className="button-project">JAVASCRIPT</a>
                                     </div>
-                                    <a href="#" target="_blank" className="text-light-red hover:underline mt-2 inline-block">Source Code</a>
+                                    <a href="https://github.com/DaVid141-cell/Web-development" target="_blank" className="text-light-red hover:underline mt-2 inline-block">Source Code</a>
                                 </div>
                             </div>
                              <div className="grid grid-cols-subgrid p-4 rounded-lg bg-white/10 backdrop-blur-md border border-white/20 shadow-lg">
