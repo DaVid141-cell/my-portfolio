@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react"
 
-export const ScrollAnimation = ({children}) => {
+export const ScrollAnimation = ({children}: { children: React.ReactNode }) => {
     const ref = useRef<HTMLDivElement>(null);
 
     useEffect (() => {

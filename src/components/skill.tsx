@@ -52,7 +52,7 @@ export const  Skill = () => {
                         </div>
                         <div className="flex items-start content-start gap-y-[20px] gap-x-[15px] shrink-0 flex-wrap">
                             <button className="button-skill hover-effect">Wireframe</button>
-                            <button className="button-skill hover-effect">Adoptive</button>
+                            <button className="button-skill hover-effect">Adaptive</button>
                             <button className="button-skill hover-effect">Collabrative</button>
                         </div>
                     </div>

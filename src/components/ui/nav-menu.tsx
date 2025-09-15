@@ -1,4 +1,3 @@
-"use client"
 import { useState } from "react"
 import {
   NavigationMenu,
@@ -28,7 +27,7 @@ export default function NavMenu() {
               className={`relative px-3 py-2 transition-colors ${
                 active === item.href
                   ? "text-red-500 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:bg-red-500 after:content-['']"
-                  : "text-gray-400 hover:text-red-400"
+                  : "text-white-400 hover:text-red-400"
               }`}
             >
               {item.label}

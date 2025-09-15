@@ -32,13 +32,12 @@ export default function Home() {
                                 href="https://www.linkedin.com/in/david-justin-2092ba37a/" target="_blank"><FontAwesomeIcon icon={faLinkedin} />
                             </a>
                             <a className="border-2 border-light-red rounded-full p-1 hover-effect" 
-                                href=""><FontAwesomeIcon icon={faDiscord} />
-                            </a>
-                            <a className="border-2 border-light-red rounded-full p-1 hover-effect" 
                                 href=""><FontAwesomeIcon icon={faFacebook} />
                             </a>
                         </div>
-                        <button className="flex border-3 rounded-2xl p-1 font-bold text-lg text-light-red border-light-red w-40 justify-center mt-4 hover:text-white hover:scale-110 hover:-translate-y-1 hover:bg-red-500 hover:shadow-[0_0_25px_red] transition-all duration-300">Contact Me</button>
+                        <a href="#contact" className="flex border-3 rounded-2xl p-1 font-bold text-lg text-light-red border-light-red w-40 justify-center mt-4 hover:text-white hover:scale-110 hover:-translate-y-1 hover:bg-red-500 hover:shadow-[0_0_25px_red] transition-all duration-300">
+                            Contact Me
+                        </a>
                     </div>
                 </div>
             </section>

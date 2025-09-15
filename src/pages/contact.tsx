@@ -1,8 +1,10 @@
+import { ScrollAnimation } from "@/components/scroll-animation";
 import { faFacebook, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Contact() {
     return (
+        <ScrollAnimation>
         <section id="contact" className="max-w-[1350px] mx-auto px-[20px] py-[75px] mt-70">
             <div>
                 <div className="">
@@ -48,7 +50,7 @@ export default function Contact() {
                         </div>
                     </div>
                 </div>
-
         </section>
+        </ScrollAnimation>
     )
 }

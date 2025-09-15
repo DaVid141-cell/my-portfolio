@@ -55,7 +55,7 @@ export const AboutMe = () => {
                     </div>
 
                     <div className=" flex justify-center items-center">
-                        <img className='w-300 p-2'  alt='Picture Not loaded' src="images\IMG_20241208_172040_025.jpg"></img>
+                        <img className='w-200 p-2'  alt='Picture Not loaded' src="images\IMG_20250915_123851_833.jpg"></img>
                     </div>
                 </div>
            </div>
