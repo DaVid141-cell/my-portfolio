@@ -21,17 +21,17 @@ export default function Contact() {
                         
                         <div className="flex-col inline-flex gap-6 text-3xl mt-4 text-background align-text-center ">
                             <div className="row">
-                                <a className="border-2 border-light-red rounded-full p-1 hover-effect" href="">
+                                <a className="border-2 border-light-red rounded-full p-1 hover-effect" href="https://github.com/DaVid141-cell" target="_blank">
                                     <FontAwesomeIcon icon={faGithub} />
                                 </a><span className="m-4">GITHUB</span>
                             </div>
                             <div className="row">
-                                <a className="border-2 border-light-red rounded-full p-1 hover-effect" href="">
+                                <a className="border-2 border-light-red rounded-full p-1 hover-effect" href="https://www.linkedin.com/in/david-justin-2092ba37a/" target="_blank">
                                     <FontAwesomeIcon icon={faLinkedin} />
                                 </a><span className="m-4">LINKEDIN</span>
                             </div>
                             <div className="row">
-                                <a className="border-2 border-light-red rounded-full p-1 hover-effect" href="">
+                                <a className="border-2 border-light-red rounded-full p-1 hover-effect" href="https://www.facebook.com/seraddavidjustin" target="_blank">
                                     <FontAwesomeIcon icon={faFacebook} />
                                 </a><span className="m-4">FACEBOOK</span>
                             </div>
